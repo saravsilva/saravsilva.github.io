@@ -73,7 +73,10 @@ p, ul, ol, table, pre, dl {
 
 h1, h2, h3 {
   line-height:1.1;
-  border-right:3px solid #42B6F3;
+}
+
+h3 {
+  border-left:3px solid #42B6F3;
 }
 
 h1 {
