@@ -62,11 +62,6 @@ body {
   font-weight:400;
 }
 
-body {
-  border-top:5px solid #42B6F3;
-  padding:50px 0;
-}
-
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
