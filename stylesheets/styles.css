@@ -72,11 +72,11 @@ p, ul, ol, table, pre, dl {
 }
 
 h1, h2, h3 {
-  line-height:1.1;
+  line-height:1.;
 }
 
 h1 {
-  font-size:25px;
+  font-size:21px;
 }
 
 h2 {
@@ -84,7 +84,7 @@ h2 {
 }
 
 h3 {
-  border-bottom:3px solid #42B6F3;
+  border-bottom:1.5px solid #42B6F3;
 }
 
 h3, h4, h5, h6 {
@@ -112,7 +112,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:1070px;
   margin:0 auto;
 }
 
@@ -228,7 +228,7 @@ header ul a strong {
 }
 
 section {
-  width:550px;
+  width:800px;
   float:right;
   padding-bottom:50px;
 }
@@ -325,4 +325,27 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all .3s ease-in-out;
+    visibility: visible;
+}
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #fff;
+    color: #222;
+    font-size: 120%;
+    position: absolute;
+    bottom: -2.1em;
+    left: 0em;
+    white-space: nowrap;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+}
+[data-title] {
+    position: relative;
 }
